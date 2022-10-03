@@ -1,0 +1,43 @@
+:root {
+    --azul: #0f637a;
+    --amarelo: #ffd900;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+main {
+    min-height: 100vh;
+}
+
+#main-header {
+    height: 90px;
+}
+
+#app-logo {
+    width: 220px;
+    
+}
+
+#add-saveState {
+    font-size: 0;
+    background-color: var(--amarelo);
+}
+
+#saveState-list .card {
+    background-color: var(--amarelo);
+
+}
+
+#saveState-list .card + .card {
+    margin-top: 10px;
+}
+
+.saveState-text {
+    margin: 0;
+}
+
+.delete-saveState {
+    font-size: 0;
+}

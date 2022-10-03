@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaveState</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+  <body>
+    <main class="d-flex flex-column"> <!-- class do bootstrap para dizer que uma tag é o flex container -->
+        <header id="main-header" class="d-flex justify-content-center align-items-center">
+            <img src="https://soulcodeacademy.org/assets/images/logo/light-logo.png" alt="Logo SoulCode Academy" id="app-logo">
+        </header>
+        <form action="#" id="saveState-form">
+            <div class="m-3 d-flex">
+                <input type="text" class="form-control me-2" placeholder="Sua Tarefa aqui..." required id="save">
+                <button type="submit" class="btn btn-warning" id="add-saveState">
+                    <span class="material-symbols-outlined">
+                        ADD
+                        </span>
+                </button>
+            </div>
+        </form>
+
+        <section id="saveState-list" class="d-flex flex-column mx-4 my-2 flex-grow-1">
+           <!--<div class="card bg-warning">
+                <div class="card-body d-flex align-items-center">
+                    <p class="saveState-text flex-grow-1 text-truncate">Estudar DOM</p>
+                    <button class="btn delete-saveState">
+                        <span class="material-symbols-outlined">Delete</span>
+                    </button>
+                </div> -->
+            </div>
+            
+        </section>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
